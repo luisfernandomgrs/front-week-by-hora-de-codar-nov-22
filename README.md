@@ -14,3 +14,12 @@ Get more with Bootstrap at: https://getbootstrap.com/
 ## Shortcut using at vs-code:
 
 ### shift+alt+down - Duplicate current line
+
+## Mobile viewing:
+
+![image](https://user-images.githubusercontent.com/72364037/201509138-71d49a10-03ad-4047-9bdb-8c63efdf0c66.png)
+
+
+## Desktop viewing:
+
+![image](https://user-images.githubusercontent.com/72364037/201509195-342c1e14-9f20-4d1d-9870-517e28585153.png)
