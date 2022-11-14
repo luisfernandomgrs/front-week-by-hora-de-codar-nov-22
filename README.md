@@ -18,6 +18,8 @@ Get more with Bootstrap at: https://getbootstrap.com/
 ## Mobile viewing:
 
 ![image](https://user-images.githubusercontent.com/72364037/201509138-71d49a10-03ad-4047-9bdb-8c63efdf0c66.png)
+![image](https://user-images.githubusercontent.com/72364037/201564327-513f4754-51d0-4683-8a7a-813e3ba3a1cf.png)
+
 
 
 ## Desktop viewing:
