@@ -11,6 +11,11 @@ const mobileLinks = document.querySelectorAll("#mobile-navbar a");
 // Particularmente acredito o certo seja: Operator, Spread...
 const allLinks = [...desktopLinks, ...mobileLinks];
 
+// Seleção de banner's e dot's selector's...
+const slides = document.querySelectorAll(".banner")
+const dots = document.querySelectorAll(".dot")
+let slideIndex = 0;
+
 // Funçòes
 function smoothScroll(e) {
   e.preventDefault();
@@ -29,6 +34,24 @@ function smoothScroll(e) {
     }
   }, 500);
 }
+
+function showSlides() {
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+    dots[i].classList.remove("active");
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+
+  slides[slideIndex - 1].classList.add("active");
+  dots[slideIndex - 1].classList.add("active");
+
+  setTimeout(showSlides, 3000);
+}
+
 // Eventos
 /*
 // 1° forma de realizar um "EventListener"...
@@ -51,3 +74,6 @@ closeMenuBtn.addEventListener("click", (e) => {
 allLinks.forEach((link) => {
   link.addEventListener("click", smoothScroll)
 });
+
+// Iniciação de Thread para animação de banner's, dando um BootStrap da "aplicação"
+showSlides();
