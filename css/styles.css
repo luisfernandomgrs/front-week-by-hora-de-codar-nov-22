@@ -88,6 +88,8 @@ i {
 
 .banner p {
   font-size: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .square {
